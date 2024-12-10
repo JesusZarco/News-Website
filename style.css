@@ -1,0 +1,256 @@
+/* #region Whole Content Area*/
+
+body {
+    margin: 0;
+    background-color: #BAD4DB;
+}
+
+
+
+/* #endregion */
+
+
+
+
+
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#Home {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/hero1.jpg);
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+/* #region Hero Images */
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#pol {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/flaggy.jpg);
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+
+
+/* #endregion */
+
+
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#buss {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/money.jpeg);
+    background-position: bottom; 
+    background-attachment: fixed;
+}
+
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#enter {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/hero\ 4.jpg);
+    background-position: bottom; 
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+.hero-text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    color: rgb(175, 179, 187);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+/* #region Navbar */
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E7BED ;
+    
+
+}
+
+nav>ul>li {
+    padding: 10px;
+    
+}
+
+nav>ul>li:hover {
+    background-color: #5CD0ED;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+/* #end region*/
+
+
+
+.homy {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px 5px;
+    margin-top: 5%;
+    height: 90%;
+    
+    justify-content: center;
+    width: 40%;
+
+  
+}
+
+
+
+
+article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+article>img {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+article>p{
+    font-size: 20pt;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-family: ;
+}
+
+article>h3 {
+    text-align: center;
+    font-size: 25pt;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 1%;
+}
+
+
+
+
+article:hover {
+    background-color: #5c6e81;
+
+}
+
+
+
+.pols {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: darkolivegreen;
+
+}
+
+.p {
+    width: 30%;
+    text-align: center;
+    
+}
+
+
+.homepics {
+    display: flex;
+    justify-content: center;
+
+}
+
+.homepics>figure {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.homepics>figure>img {
+    width: 75%;
+    height: 110%;
+}
+
+
+.webby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.webby>div {
+    margin: auto;
+}
+
+
+.blue {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
